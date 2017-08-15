@@ -34,7 +34,7 @@ $name = $_POST['username'];
 $pass = $_POST['password'];
                    if(strlen($name) <= 1){
 
-                      echo "имя не заполнено";// header("Location: dashboard.php");
+                     // echo "имя не заполнено";// header("Location: dashboard.php");
 die('error name');
                    }
                     
@@ -48,7 +48,7 @@ die('error name');
 
                     if(strlen($pass) <= 1){
 
-                      echo "пароль не заполнен";// header("Location: dashboard.php");
+                     // echo "пароль не заполнен";// header("Location: dashboard.php");
 die('error password');
                    }
                     
